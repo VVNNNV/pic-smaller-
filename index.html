@@ -1,18 +1,44 @@
+# 进入你的项目根目录（如果路径不同请修改）
+cd /root/pic-smaller
+
+# 写入修正后的index.html
+cat > index.html << 'EOF'
 <!DOCTYPE html>
 <html lang="zh-CN">
-  
-<h1>王丹 欢迎你</h1>
-  
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/logo-light.png" />
+  <link rel="icon" type="image/png" href="/logo-light.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently</title>
+  <style>
+    .custom-header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .custom-header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+    .welcome-text {
+      font-size: 24px;
+      color: #1890ff;
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="custom-header">
+    <img src="/logo-light.png" alt="Logo">
+    <h1 class="welcome-text">王丹 欢迎你</h1>
+  </div>
+
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>
+EOF
+
+# 重启服务生效（如果用PM2托管的话）
+pm2 restart pic-smaller
