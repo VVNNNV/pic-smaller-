@@ -1,20 +1,24 @@
-cd /root/it-tools
-cat > index.html << 'EOF'
-<!DOCTYPE html>
+cd /root/pic-smaller
+echo '<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/logo-light.png" />
+  <link rel="icon" type="image/png" href="/logo-light.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently</title>
+  <style>
+    .top-logo{text-align:center;padding:20px 0 0;margin:0;}
+    .top-logo img{height:90px;}
+    .nav-box{text-align:center;margin:15px 0;}
+    .back-home{display:inline-block;padding:9px 22px;background:#007bff;color:#fff;text-decoration:none;border-radius:6px;font-size:15px;}
+    .welcome-text{text-align:center;font-size:24px;color:#007bff;margin:10px 0 25px;}
+  </style>
 </head>
-
 <body>
-  <h1 style="text-align:center; margin-top:30px;">王丹 欢迎你</h1>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
+<div class="top-logo"><img src="/logo-light.png" alt="Logo"></div>
+<div class="nav-box"><a href="https://picsmaller.edgeone.dev/" class="back-home">🔙 回到首页</a></div>
+<div class="welcome-text">王丹 欢迎你</div>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
 </body>
-
-</html>
-EOF
-pm2 restart it-tools
+</html>' > index.html
