@@ -166,7 +166,7 @@ export const Header = () => {
 ### 修改前
 ```
 public/
-└── logo.svg
+└── logo-light.png
 
 src/
 ├── components/
@@ -181,7 +181,7 @@ src/
 ### 修改后
 ```
 public/
-├── logo.svg
+├── logo-light.png
 ├── logo-new.png              ✨ 新增
 ├── background-hero.png       ✨ 新增
 └── background-upload.png     ✨ 新增

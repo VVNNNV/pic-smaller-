@@ -28,7 +28,7 @@ public/
 ├── logo-new.png                    # 新 Logo（新增）
 ├── background-hero.png             # 英雄背景图（新增）
 ├── background-upload.png           # 上传区背景图（新增）
-└── logo.svg                        # 原始 Logo
+└── logo-light.png                        # 原始 Logo
 ```
 
 ## 广告放置位置
